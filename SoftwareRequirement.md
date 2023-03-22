@@ -6,11 +6,11 @@
 5. User should be able to request the database to gather more recipe from the internet
 
 ## Non-functional Requirement
-Usability:
-Performance:
-Space:
-Environmental:
+Usability: A system to show recipes, which include ingredients list, steps to cook, and final product picture
+Performance: Database should be able to store more than 100 recipe
+Space: The software will take at most 50 MB
+Environmental: Recipe should not contain exotic ingredients, and should ask user to not waste any ingredients
 Operational:
 Development:
-Accouting:
-Safety/Security:
+Accouting: The software will be free and open source
+Safety/Security: Food allergies warning if recipe contains allergies inducing ingredients 
