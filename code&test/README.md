@@ -8,7 +8,7 @@ the recipe database is a class and the recipe is a class.
 
 ![Recipe DataBase Source Code](Images/RecipeDatabaseSRC.png)
 
-![Recipe Source Code](Images/RecipeSRC.png)
+![Recipe Source Code](Images/RecipeSrc.png)
 
 ## Testing
 The code is tested using JUnit. The test cases are written to test the add and search
