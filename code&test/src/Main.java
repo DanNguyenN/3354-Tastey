@@ -14,13 +14,11 @@ class RecipeDataBase {
     public RecipeDataBase(Recipe[] recipes) {
         this.recipes = recipes;
     }
-
     //Init Empty DataBase
     public RecipeDataBase() {
         this.recipes = new Recipe[0];
     }
-
-    //Search Reipe by name
+    //Search Recipe by name
     public Recipe searchRecipeByName(String name) {
         for (Recipe recipe : recipes) {
             if (recipe.name.equals(name)) {
@@ -29,17 +27,6 @@ class RecipeDataBase {
         }
         return null;
     }
-
-    //Return false if recipe is not found
-    public boolean recipeExist(String name) {
-        for (Recipe recipe : recipes) {
-            if (recipe.name.equals(name)) {
-                return true;
-            }
-        }
-        return false;
-    }
-
     //Add Recipe to dataBase
     public void addRecipe(Recipe recipe) {
         Recipe[] newRecipes = new Recipe[recipes.length + 1];
@@ -49,7 +36,6 @@ class RecipeDataBase {
         newRecipes[newRecipes.length - 1] = recipe;
         recipes = newRecipes;
     }
-
 }
 class Recipe {
     String name;
