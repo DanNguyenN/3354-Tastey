@@ -15,3 +15,7 @@ The code is tested using JUnit. The test cases are written to test the add and s
 feature of the recipe database. Additionally, we also test the initialization of a single recipe.
 
 ![Recipe Testing](Images/Testing.png)
+
+We can run the the program. According to image below, all test cases passed.
+
+![Testing Results](Images/TestingResults.png)
